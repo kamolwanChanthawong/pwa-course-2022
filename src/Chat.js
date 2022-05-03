@@ -32,7 +32,7 @@ function Chat() {
   }
 
   function transformChatData(item) {
-    let displayName = "arikato(Offline)";
+    let displayName = "ไม่ทราบชื่อ(Offline)";
     if (item.user in usersDict && usersDict[item.user].displayName){
       displayName = usersDict[item.user].displayName;
     } else if (item.user === authState.user.uid) {

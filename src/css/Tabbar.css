@@ -1,6 +1,6 @@
 .tabbar {
   height: 50px;
-  background-color: chocolate;
+  background-color: #2cbb84;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -19,7 +19,7 @@
 }
 
 .tabbar .tabbutton:hover {
-  background-color: #7deecc;;
+  background-color: #0d7e53;;
 }
 
 .tabbar.stick-bottom {

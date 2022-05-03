@@ -1,6 +1,6 @@
 .chatbox {
   flex: 1;
-  background-color: rgb(218, 199, 160);
+  background-color: silver;
   overflow: auto;
 }
 
